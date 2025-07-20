@@ -1,5 +1,5 @@
 # React Real Estate Estate
 
-This is a React, media responsive website with a dark mode that was created with Javascript. 
+This is a media responsive website for a fictional real estate company with dark mode features that was created with Javascript, and React. 
 
 
