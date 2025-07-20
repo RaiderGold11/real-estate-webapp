@@ -29,7 +29,10 @@ const {darkMode, toggleDarkMode } = useDarkMode();
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga qui, nulla eligendi neque placeat amet? Quaerat, ullam 
         accusantium cumque error placeat, ut sapiente dolor dicta expedita atque voluptates doloribus veniam.
       </p>
- 
+      <button className='bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black 
+                text-lg p-4 text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-300'>
+                    READ MORE
+                </button>
     </div>
     </section>
   )
