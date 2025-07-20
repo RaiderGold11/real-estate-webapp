@@ -19,10 +19,8 @@ const DarkModeProvider = ({ children }) => {
     useEffect(() => {
         if (darkMode) {
             document.body.classList.add('dark');
-            body.classList.remove('light');
         } else {
             document.body.classList.remove('dark');
-            body.classList.add('light');
 
         }
     }, [darkMode]);
