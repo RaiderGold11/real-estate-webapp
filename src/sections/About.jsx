@@ -23,7 +23,7 @@ const {darkMode, toggleDarkMode } = useDarkMode();
       <img data-aos="zoom-in" src={aboutimg} alt='about image' className='rounded-2xl lg:w-[500px] lg:h-[600px]'/>
     </div>
     <div className='flex flex-col justify-center items-start gap-8'>
-      <h1 data-aos="zoom-in" className='text-red-500 dark:text-white'>WHO WE ARE</h1>
+      <h1 data-aos="zoom-in" className='text-red-500 dark:text-black'>WHO WE ARE</h1>
       <h1 data-aos="zoom-in" data-aos-delay="200" className='text-black text-[40px] font-semibold leading-10 dark:text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
       <p data-aos="zoom-in" data-aos-delay="400" className='text-xl text-gray-900 dark:text-white text-justify'>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga qui, nulla eligendi neque placeat amet? Quaerat, ullam 
