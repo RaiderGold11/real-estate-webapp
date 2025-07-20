@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Styling for outer border of website */
 * {
     margin: 0;
     padding: 0;
