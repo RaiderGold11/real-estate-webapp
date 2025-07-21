@@ -44,11 +44,11 @@ const Hero = () => {
             <div className='w-full'>
                 <h1 className='text-black font-semibold dark:text-white'>LOCATION</h1>
                 <input type='text' placeholder='Enter an address, state, city or pincode'
-                className='bg-white p-2 w-full mt-2 border-b-[1px] border-[#c9c7c1]'/>
+                className='bg-white p-2 w-full mt-2 border-b-[1px] border-[#c9c7c1] rounded-md'/>
             </div>
             <div className='w-full'>
             <h1 className='text-black font-semibold dark:text-white'>TYPE</h1>
-                <select name="propertyType" id="propertyType" defaultValue="" className='bg-white p-2 border-b-[1px] w-full mt-2 border-[#c9c7c1] text-gray-500 text-md'>
+                <select name="propertyType" id="propertyType" defaultValue="" className='bg-white p-2 border-b-[1px] w-full mt-2 border-[#c9c7c1] rounded-md text-gray-500 text-md'>
                 <option value="" disabled selected>Select Property</option>
                 <option value="Option1">Rentals</option>
                 <option value="Option2">Sales</option>
@@ -57,7 +57,7 @@ const Hero = () => {
             </div>
             <div className='w-full'>
                 <h1 className='text-black font-semibold dark:text-white'>CATEGORY</h1>
-                <select   name="propertyCategory" id="propertyCategory" defaultValue="" className='bg-white p-2 border-b-[1px] w-full mt-2 border-[#c9c7c1] text-gray-500 text-md'>
+                <select   name="propertyCategory" id="propertyCategory" defaultValue="" className='bg-white p-2 border-b-[1px] w-full mt-2 border-[#c9c7c1] rounded-md text-gray-500 text-md'>
                 <option value="" disabled selected>Property Category</option>
                 <option value="Option1">Apartments</option>
                 <option value="Option2">Duplexes</option>
