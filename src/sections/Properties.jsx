@@ -33,11 +33,11 @@ const {darkMode, toggleDarkMode } = useDarkMode();
                 <div id='image-box' className='bg-cover bg-center h-[250px] rounded-xl p-4 flex flex-col justify-between items-end' style={{backgroundImage: `url(${item.images})`}}>
                     <div id='top' className='flex justify-between items-end w-full'>
                       <div>
-                        <button className='px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]'>Featured</button>
+                        <button className='px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-black dark:text-white rounded-full text-[13px]'>Featured</button>
                       </div>
                       <div className='flex justify-between items-center gap-3'>
-                      <button className='px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]'>Sales</button>
-                      <button className='px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]'>Active</button>
+                      <button className='px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-black dark:text-white rounded-full text-[13px]'>Sales</button>
+                      <button className='px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-black dark:text-white rounded-full text-[13px]'>Active</button>
                       </div>
                     </div>
                     <div id='bottom' className='flex justify-between items-end w-full'>

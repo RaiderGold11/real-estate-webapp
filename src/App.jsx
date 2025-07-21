@@ -13,8 +13,7 @@ import Footer from './components/Footer'
 // Main Website //
 const App = () => {
   return (
-    <>
-       <DarkModeProvider>
+      <DarkModeProvider>
         <Header/>
         <Hero/>
         <About/>
@@ -24,8 +23,7 @@ const App = () => {
         <Clients/>
         <Contacts/>
         <Footer/>
-       </DarkModeProvider>
-    </>
+      </DarkModeProvider>
   )
 }
 
